@@ -57,7 +57,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zzder/vscodpro/ThreadPool/src
+CMAKE_SOURCE_DIR = /home/zzder/vscodpro/ThreadPool
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/zzder/vscodpro/ThreadPool/build
@@ -117,65 +117,65 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named app
+# Target rules for targets named TestThreadPool
 
 # Build rule for target.
-app: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app
-.PHONY : app
+TestThreadPool: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 TestThreadPool
+.PHONY : TestThreadPool
 
 # fast build rule for target.
-app/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/build
-.PHONY : app/fast
+TestThreadPool/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestThreadPool.dir/build.make CMakeFiles/TestThreadPool.dir/build
+.PHONY : TestThreadPool/fast
 
-TestThreadPool.o: TestThreadPool.cpp.o
-.PHONY : TestThreadPool.o
-
-# target to build an object file
-TestThreadPool.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/TestThreadPool.cpp.o
-.PHONY : TestThreadPool.cpp.o
-
-TestThreadPool.i: TestThreadPool.cpp.i
-.PHONY : TestThreadPool.i
-
-# target to preprocess a source file
-TestThreadPool.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/TestThreadPool.cpp.i
-.PHONY : TestThreadPool.cpp.i
-
-TestThreadPool.s: TestThreadPool.cpp.s
-.PHONY : TestThreadPool.s
-
-# target to generate assembly for a file
-TestThreadPool.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/TestThreadPool.cpp.s
-.PHONY : TestThreadPool.cpp.s
-
-ThreadPool.o: ThreadPool.cpp.o
-.PHONY : ThreadPool.o
+src/TestThreadPool.o: src/TestThreadPool.cpp.o
+.PHONY : src/TestThreadPool.o
 
 # target to build an object file
-ThreadPool.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/ThreadPool.cpp.o
-.PHONY : ThreadPool.cpp.o
+src/TestThreadPool.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestThreadPool.dir/build.make CMakeFiles/TestThreadPool.dir/src/TestThreadPool.cpp.o
+.PHONY : src/TestThreadPool.cpp.o
 
-ThreadPool.i: ThreadPool.cpp.i
-.PHONY : ThreadPool.i
+src/TestThreadPool.i: src/TestThreadPool.cpp.i
+.PHONY : src/TestThreadPool.i
 
 # target to preprocess a source file
-ThreadPool.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/ThreadPool.cpp.i
-.PHONY : ThreadPool.cpp.i
+src/TestThreadPool.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestThreadPool.dir/build.make CMakeFiles/TestThreadPool.dir/src/TestThreadPool.cpp.i
+.PHONY : src/TestThreadPool.cpp.i
 
-ThreadPool.s: ThreadPool.cpp.s
-.PHONY : ThreadPool.s
+src/TestThreadPool.s: src/TestThreadPool.cpp.s
+.PHONY : src/TestThreadPool.s
 
 # target to generate assembly for a file
-ThreadPool.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/ThreadPool.cpp.s
-.PHONY : ThreadPool.cpp.s
+src/TestThreadPool.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestThreadPool.dir/build.make CMakeFiles/TestThreadPool.dir/src/TestThreadPool.cpp.s
+.PHONY : src/TestThreadPool.cpp.s
+
+src/ThreadPool.o: src/ThreadPool.cpp.o
+.PHONY : src/ThreadPool.o
+
+# target to build an object file
+src/ThreadPool.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestThreadPool.dir/build.make CMakeFiles/TestThreadPool.dir/src/ThreadPool.cpp.o
+.PHONY : src/ThreadPool.cpp.o
+
+src/ThreadPool.i: src/ThreadPool.cpp.i
+.PHONY : src/ThreadPool.i
+
+# target to preprocess a source file
+src/ThreadPool.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestThreadPool.dir/build.make CMakeFiles/TestThreadPool.dir/src/ThreadPool.cpp.i
+.PHONY : src/ThreadPool.cpp.i
+
+src/ThreadPool.s: src/ThreadPool.cpp.s
+.PHONY : src/ThreadPool.s
+
+# target to generate assembly for a file
+src/ThreadPool.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestThreadPool.dir/build.make CMakeFiles/TestThreadPool.dir/src/ThreadPool.cpp.s
+.PHONY : src/ThreadPool.cpp.s
 
 # Help Target
 help:
@@ -185,13 +185,13 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... app"
-	@echo "... TestThreadPool.o"
-	@echo "... TestThreadPool.i"
-	@echo "... TestThreadPool.s"
-	@echo "... ThreadPool.o"
-	@echo "... ThreadPool.i"
-	@echo "... ThreadPool.s"
+	@echo "... TestThreadPool"
+	@echo "... src/TestThreadPool.o"
+	@echo "... src/TestThreadPool.i"
+	@echo "... src/TestThreadPool.s"
+	@echo "... src/ThreadPool.o"
+	@echo "... src/ThreadPool.i"
+	@echo "... src/ThreadPool.s"
 .PHONY : help
 
 

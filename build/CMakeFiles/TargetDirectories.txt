@@ -1,3 +1,3 @@
-/home/zzder/vscodpro/ThreadPool/build/CMakeFiles/app.dir
+/home/zzder/vscodpro/ThreadPool/build/CMakeFiles/TestThreadPool.dir
 /home/zzder/vscodpro/ThreadPool/build/CMakeFiles/edit_cache.dir
 /home/zzder/vscodpro/ThreadPool/build/CMakeFiles/rebuild_cache.dir

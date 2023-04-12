@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/zzder/vscodpro/ThreadPool/src/TestThreadPool.cpp" "CMakeFiles/app.dir/TestThreadPool.cpp.o" "gcc" "CMakeFiles/app.dir/TestThreadPool.cpp.o.d"
-  "/home/zzder/vscodpro/ThreadPool/src/ThreadPool.cpp" "CMakeFiles/app.dir/ThreadPool.cpp.o" "gcc" "CMakeFiles/app.dir/ThreadPool.cpp.o.d"
+  "/home/zzder/vscodpro/ThreadPool/src/TestThreadPool.cpp" "CMakeFiles/TestThreadPool.dir/src/TestThreadPool.cpp.o" "gcc" "CMakeFiles/TestThreadPool.dir/src/TestThreadPool.cpp.o.d"
+  "/home/zzder/vscodpro/ThreadPool/src/ThreadPool.cpp" "CMakeFiles/TestThreadPool.dir/src/ThreadPool.cpp.o" "gcc" "CMakeFiles/TestThreadPool.dir/src/ThreadPool.cpp.o.d"
   )
 
 # Targets to which this target links.

@@ -1,4 +1,4 @@
-# Install script for directory: /home/zzder/vscodpro/ThreadPool/src
+# Install script for directory: /home/zzder/vscodpro/ThreadPool
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

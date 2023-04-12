@@ -1,4 +1,4 @@
-CMakeFiles/app.dir/TestThreadPool.cpp.o: \
+CMakeFiles/TestThreadPool.dir/src/TestThreadPool.cpp.o: \
  /home/zzder/vscodpro/ThreadPool/src/TestThreadPool.cpp \
  /usr/include/stdc-predef.h \
  /home/zzder/vscodpro/ThreadPool/src/ThreadPool.h \
